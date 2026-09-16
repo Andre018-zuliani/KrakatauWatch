@@ -1,0 +1,6 @@
+{
+  "name": "KrakatauWatch",
+  "description": "Sistem AI Deteksi & Mitigasi Dini Aktivitas Gunung Krakatau - monitoring seismik real-time, computer vision abu vulkanik, prediksi sebaran angin, LLM reasoning, dan asisten RAG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
