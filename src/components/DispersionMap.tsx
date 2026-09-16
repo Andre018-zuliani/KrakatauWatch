@@ -51,8 +51,6 @@ export const DispersionMap: React.FC<DispersionMapProps> = ({
   exclusionRadiusKm = 5,
   seismicStats
 }) => {
-  const { theme } = useTheme();
-  const isDark = theme === 'dark';
 
   // Mode: Tsunami Simulation vs Ash Dispersion
   const [mapMode, setMapMode] = useState<'tsunami' | 'ash'>('tsunami');
